@@ -6,9 +6,15 @@
 //
 
 #include <iostream>
+#include <string>
+#include "person.hpp"
+using namespace std;
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    Person<string, int>p("lin", 24);
+    p.print();
     std::cout << "Hello, World!\n";
     return 0;
 }
